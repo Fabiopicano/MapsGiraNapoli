@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_preferiti"
+        android:enabled="true"
+        android:title="Preferiti"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/action_mappa"
+            android:enabled="true"
+            android:title="Mappa Normale"
+            android:icon="@drawable/ic_map_black_24dp"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/action_tutte"
+            android:enabled="true"
+            android:title="Tutte le fermate"
+            android:icon="@drawable/ic_dialpad_black_24dp"
+            app:showAsAction="ifRoom"/>
+
+
+
+</menu>
